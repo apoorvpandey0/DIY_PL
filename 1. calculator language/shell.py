@@ -14,7 +14,6 @@ class Token(object):
 
     def __str__(self):
         """String representation of the class instance.
-
         Examples:
             Token(INTEGER, 3)
             Token(PLUS '+')
@@ -42,7 +41,6 @@ class Interpreter(object):
 
     def get_next_token(self):
         """Lexical analyzer (also known as scanner or tokenizer)
-
         This method is responsible for breaking a sentence
         apart into tokens. One token at a time.
         """
